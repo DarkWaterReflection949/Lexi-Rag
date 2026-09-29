@@ -1,0 +1,30 @@
+# Env
+.env
+.env.local
+*.env
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+
+# Node
+node_modules/
+.next/
+out/
+dist/
+*.log
+npm-debug.log*
+
+# Data (don't commit user PDFs)
+data/*
+!data/.gitkeep
+
+# OS / IDE
+.DS_Store
+.vscode/
+.idea/
